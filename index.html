@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A personal blog website showcasing thoughts and stories.">
+    <title>My Personal Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Open+Sans:wght@400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="main-header">
+        <div class="container">
+            <a href="#" class="logo">MyBlog</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#blogs">Blog</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container hero-content">
+            <h1>Welcome to My World</h1>
+            <p>Exploring thoughts, ideas, and stories one post at a time.</p>
+            <a href="#blogs" class="btn btn-primary">Read Blogs</a>
+        </div>
+    </section>
+
+    <!-- Blog Grid Section -->
+    <section id="blogs" class="blog-section">
+        <div class="container">
+            <h2 class="section-title">Latest Posts</h2>
+            <div class="blog-grid">
+                <!-- Blog Post 1 -->
+                <article class="blog-card">
+                    <img src="images/lifestyle.png" alt="Minimalist Living Room" class="blog-image">
+                    <div class="blog-content">
+                        <span class="blog-category">Lifestyle</span>
+                        <h3>The Art of Minimalist Living</h3>
+                        <p>Discover how decluttering your physical space can lead to a clearer mind and a more focused
+                            life.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 2 -->
+                <article class="blog-card">
+                    <img src="images/tech.png" alt="AI Brain" class="blog-image">
+                    <div class="blog-content">
+                        <span class="blog-category">Technology</span>
+                        <h3>The Future of AI</h3>
+                        <p>An in-depth look at how artificial intelligence is reshaping industries and our daily lives.
+                        </p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 3 -->
+                <article class="blog-card">
+                    <img src="images/travel.png" alt="Kyoto Temple" class="blog-image">
+                    <div class="blog-content">
+                        <span class="blog-category">Travel</span>
+                        <h3>Hidden Gems of Kyoto</h3>
+                        <p>Explore the secret temples and quiet gardens of Japan's ancient capital, away from the
+                            crowds.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 4 -->
+                <article class="blog-card">
+                    <img src="images/food.png" alt="Italian Pasta" class="blog-image">
+                    <div class="blog-content">
+                        <span class="blog-category">Food</span>
+                        <h3>Authentic Italian Pasta</h3>
+                        <p>Learn the secrets of making fresh pasta from scratch with this traditional family recipe.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 5 -->
+                <article class="blog-card">
+                    <img src="images/photography.png" alt="Landscape Photography" class="blog-image">
+                    <div class="blog-content">
+                        <span class="blog-category">Photography</span>
+                        <h3>Capturing Golden Hour</h3>
+                        <p>Tips and tricks for taking stunning landscape photos during the most magical time of day.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 6 -->
+                <article class="blog-card">
+                    <img src="images/work.png" alt="Workspace" class="blog-image">
+                    <div class="blog-content">
+                        <span class="blog-category">Productivity</span>
+                        <h3>Deep Work Habits</h3>
+                        <p>Master the ability to focus without distraction on a cognitively demanding task.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm a passionate writer and creator who loves to share stories about life, technology, and
+                        travel. This blog is my digital garden where I cultivate ideas and share them with the world.
+                    </p>
+                    <p>When I'm not writing, you can find me exploring new cities, experimenting with photography, or
+                        coding my next project.</p>
+                </div>
+                <div class="about-image">
+                    <img src="images/work.png" alt="Profile Picture" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2024 My Personal Blog. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
